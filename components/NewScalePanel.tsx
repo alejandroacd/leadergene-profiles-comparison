@@ -25,9 +25,41 @@ export function NewScalePanel({
       <h4 className="text-base font-semibold text-gray-800">
         {descriptor.title}
       </h4>
-      <p className="text-sm text-gray-600 leading-relaxed">
-        {descriptor.characteristics}
-      </p>
+
+      {/* Parse characteristics: first line is the intro, rest are "- Title: desc" bullets */}
+      {(() => {
+        const lines = descriptor.characteristics.split("\n").map((l) => l.trim()).filter(Boolean);
+        const intro = lines.find((l) => !l.startsWith("-"));
+        const bullets = lines.filter((l) => l.startsWith("-"));
+        // Strip leading "Title: description" prefix that duplicates the title
+        const introText = intro?.replace(/^[^:]+Characteristics:\s*/i, "") ?? "";
+        return (
+          <div className="space-y-2">
+            {introText && (
+              <p className="text-sm text-gray-600 leading-relaxed">{introText}</p>
+            )}
+            {bullets.length > 0 && (
+              <ul className="space-y-1">
+                {bullets.map((bullet, i) => {
+                  const withoutDash = bullet.replace(/^-\s*/, "");
+                  const colonIdx = withoutDash.indexOf(":");
+                  const boldPart = colonIdx !== -1 ? withoutDash.slice(0, colonIdx) : withoutDash;
+                  const rest = colonIdx !== -1 ? withoutDash.slice(colonIdx + 1).trim() : "";
+                  return (
+                    <li key={i} className="text-sm text-gray-600 flex items-start gap-2">
+                      <span className="text-teal-400 mt-1 shrink-0">●</span>
+                      <span>
+                        <strong className="text-gray-700">{boldPart}</strong>
+                        {rest && <>: {rest}</>}
+                      </span>
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
+          </div>
+        );
+      })()}
 
       <div className="border border-gray-100 rounded-lg overflow-hidden">
         <button

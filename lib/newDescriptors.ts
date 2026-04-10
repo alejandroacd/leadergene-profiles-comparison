@@ -5,7 +5,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Low: {
       band: "Low",
       title: "Risk Averse and Reserved",
-      characteristics: "Focused on safety, stability, and avoiding mistakes. Reluctant to take risks and hesitant in high-pressure situations.",
+      characteristics: "Risk Averse and Reserved Characteristics: Focused on safety, stability, and avoiding mistakes. Reluctant to take risks and hesitant in high-pressure situations.\n- Encourage gradual risk-taking: Start with small, manageable challenges to build confidence in decision-making and taking calculated risks.\n- Develop a growth mindset: Help them view setbacks as learning opportunities rather than threats.\n- Focus on incremental goals: Break larger goals into smaller, achievable steps to minimize feelings of overwhelm.\n- Leverage strengths: Assign roles that prioritize stability and process-oriented tasks, emphasizing their cautious and detail-focused nature.\n- Introduce change slowly: Gradually expose them to dynamic environments to help them adapt over time.",
       actions: [
         { title: "Encourage gradual risk-taking", description: "Start with small, manageable challenges to build confidence in decision-making and taking calculated risks." },
         { title: "Develop a growth mindset", description: "Help them view setbacks as learning opportunities rather than threats." },
@@ -17,7 +17,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Low-Mid": {
       band: "Low-Mid",
       title: "Cautious and Service Oriented",
-      characteristics: "Moderate ambition with a focus on security and steady progress. Avoids high-pressure environments but is open to measured growth.",
+      characteristics: "Cautious and Service Oriented Characteristics: Moderate ambition with a focus on security and steady progress. Avoids high-pressure environments but is open to measured growth.\n- Encourage measured ambition: Set clear, realistic goals that balance risk and security.\n- Build confidence in dynamic situations: Provide support during high-pressure tasks to help them navigate uncertainty effectively.\n- Promote collaborative leadership: Leverage their service-oriented nature to build strong team relationships while working toward goals.\n- Incorporate flexibility: Encourage adaptability by exposing them to new challenges within a controlled, supportive framework.\n- Reinforce success: Celebrate small victories to build their confidence and motivation for larger challenges.",
       actions: [
         { title: "Encourage measured ambition", description: "Set clear, realistic goals that balance risk and security." },
         { title: "Build confidence in dynamic situations", description: "Provide support during high-pressure tasks to help them navigate uncertainty effectively." },
@@ -29,7 +29,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Mid: {
       band: "Mid",
       title: "Balanced Motivators",
-      characteristics: "Adaptable and balanced between ambition and caution. Able to navigate both task-oriented and relationship-focused environments.",
+      characteristics: "Balanced Motivators Characteristics: Adaptable and balanced between ambition and caution. Able to navigate both task-oriented and relationship-focused environments.\n- Maximize versatility: Highlight their adaptability and encourage roles that require both strategic thinking and relationship management.\n- Challenge their comfort zone: Push them slightly beyond their limits to foster growth without overwhelming them.\n- Balance goals and relationships: Help them develop strategies to excel in both task-focused and people-focused aspects of their work.\n- Foster strategic risk-taking: Encourage them to assess and embrace opportunities for growth while maintaining stability.\n- Support leadership growth: Provide opportunities to lead in consultative or persuasive capacities to build their confidence.",
       actions: [
         { title: "Maximize versatility", description: "Highlight their adaptability and encourage roles that require both strategic thinking and relationship management." },
         { title: "Challenge their comfort zone", description: "Push them slightly beyond their limits to foster growth without overwhelming them." },
@@ -41,7 +41,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Mid-High": {
       band: "Mid-High",
       title: "Driven Leaders",
-      characteristics: "Persistent and motivated by challenges. Balanced ambition with a strong focus on achieving results and maintaining relationships.",
+      characteristics: "Driven Leaders Characteristics: Persistent and motivated by challenges. Balanced ambition with a strong focus on achieving results and maintaining relationships.\n- Enhance leadership skills: Develop their ability to balance task-focused and people-oriented leadership strategies.\n- Focus on resilience: Equip them with strategies to overcome setbacks and maintain momentum in competitive environments.\n- Encourage calculated risk-taking: Help them refine their ability to assess opportunities and take strategic risks.\n- Prioritize balance: Coach them to maintain a balance between their competitive drive and the need to collaborate with others.\n- Recognize achievements: Reinforce their motivation by celebrating their successes and providing constructive feedback for improvement.",
       actions: [
         { title: "Enhance leadership skills", description: "Develop their ability to balance task-focused and people-oriented leadership strategies." },
         { title: "Focus on resilience", description: "Equip them with strategies to overcome setbacks and maintain momentum in competitive environments." },
@@ -53,7 +53,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     High: {
       band: "High",
       title: "Ambitious Achievers",
-      characteristics: "Intensely competitive, goal-driven, and results-oriented. Thrives in fast-paced environments but may overlook details or relationships.",
+      characteristics: "Ambitious Achievers Characteristics: Intensely competitive, goal-driven, and results-oriented. Thrives in fast-paced environments but may overlook details or relationships.\n- Cultivate patience: Encourage mindfulness practices or strategies to manage impatience and frustration with slower-paced tasks or colleagues.\n- Foster collaborative skills: Highlight the importance of teamwork and relationship-building to achieve long-term success.\n- Balance urgency with detail: Coach them to slow down and focus on critical details without losing sight of the bigger picture.\n- Channel energy strategically: Guide them to prioritize tasks effectively and avoid burnout from overextending themselves.\n- Expand leadership capacity: Encourage them to mentor others and delegate responsibilities to maximize team potential while maintaining focus on results.",
       actions: [
         { title: "Cultivate patience", description: "Encourage mindfulness practices or strategies to manage impatience and frustration with slower-paced tasks or colleagues." },
         { title: "Foster collaborative skills", description: "Highlight the importance of teamwork and relationship-building to achieve long-term success." },
@@ -68,7 +68,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Low: {
       band: "Low",
       title: "Reactive Entrepreneur",
-      characteristics: "Relies on external structure and supervision, struggles with self-management and navigating ambiguity, avoids taking initiative.",
+      characteristics: "Reactive Entrepreneur Characteristics: Relies on external structure and supervision, struggles with self-management and navigating ambiguity, avoids taking initiative.\n- Build foundational self-management skills: Provide tools for planning, time management, and setting small, achievable goals.\n- Encourage gradual autonomy: Assign simple tasks with minimal oversight to help build confidence in independent decision-making.\n- Support adaptability: Expose them to controlled ambiguous situations to develop comfort with change over time.\n- Provide consistent feedback: Offer clear, regular feedback to guide and reinforce positive behaviors.\n- Foster a supportive environment: Pair them with a mentor or supervisor who can model proactive behaviors.",
       actions: [
         { title: "Build foundational self-management skills", description: "Provide tools for planning, time management, and setting small, achievable goals." },
         { title: "Encourage gradual autonomy", description: "Assign simple tasks with minimal oversight to help build confidence in independent decision-making." },
@@ -80,7 +80,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Low-Mid": {
       band: "Low-Mid",
       title: "Developing Entrepreneur",
-      characteristics: "Capable of basic self-management but needs support to enhance initiative and comfort with ambiguity. Prefers clear structures and processes.",
+      characteristics: "Developing Entrepreneur Characteristics: Capable of basic self-management but needs support to enhance initiative and comfort with ambiguity. Prefers clear structures and processes.\n- Encourage calculated risk-taking: Introduce opportunities to make low-stakes decisions independently.\n- Set clear expectations: Provide structured goals while gradually reducing reliance on external guidance.\n- Develop problem-solving skills: Teach strategies for handling uncertainty and making decisions without immediate direction.\n- Promote initiative: Encourage them to take ownership of specific tasks or projects.\n- Provide recognition: Reinforce progress with positive feedback to build confidence.",
       actions: [
         { title: "Encourage calculated risk-taking", description: "Introduce opportunities to make low-stakes decisions independently." },
         { title: "Set clear expectations", description: "Provide structured goals while gradually reducing reliance on external guidance." },
@@ -92,7 +92,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Mid: {
       band: "Mid",
       title: "Balanced Self-Management",
-      characteristics: "Balances proactivity and responsiveness, adapts to different situations, moderately comfortable with ambiguity.",
+      characteristics: "Balanced Self-Management Characteristics: Balances proactivity and responsiveness, adapts to different situations, moderately comfortable with ambiguity.\n- Leverage adaptability: Assign tasks that require switching between structured and unstructured approaches.\n- Strengthen decision-making skills: Provide opportunities to lead projects, encouraging strategic thinking.\n- Encourage consistency: Help them establish routines to maintain focus across varied situations.\n- Enhance leadership potential: Offer roles that involve both guiding teams and collaborating with peers.\n- Push comfort zones: Gradually challenge them with more ambiguous or dynamic tasks to build confidence.",
       actions: [
         { title: "Leverage adaptability", description: "Assign tasks that require switching between structured and unstructured approaches." },
         { title: "Strengthen decision-making skills", description: "Provide opportunities to lead projects, encouraging strategic thinking." },
@@ -104,7 +104,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Mid-High": {
       band: "Mid-High",
       title: "Proactive Self-Management",
-      characteristics: "Proactive and self-directed, able to balance assertiveness with responsiveness. Adapts well to changing circumstances.",
+      characteristics: "Proactive Self-Management Characteristics: Proactive and self-directed, able to balance assertiveness with responsiveness. Adapts well to changing circumstances.\n- Encourage strategic risk-taking: Provide challenging projects that require assessing and managing complex risks.\n- Refine leadership skills: Offer opportunities to lead teams or mentor others to develop their influence.\n- Promote goal alignment: Help them tie personal goals to organizational objectives for greater impact.\n- Support resilience: Teach strategies to manage setbacks and maintain focus on long-term outcomes.\n- Recognize and reward initiative: Celebrate their proactive contributions to reinforce their motivation.",
       actions: [
         { title: "Encourage strategic risk-taking", description: "Provide challenging projects that require assessing and managing complex risks." },
         { title: "Refine leadership skills", description: "Offer opportunities to lead teams or mentor others to develop their influence." },
@@ -116,7 +116,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     High: {
       band: "High",
       title: "High Entrepreneurial Potential",
-      characteristics: "Highly self-directed, assertive, and goal-driven. Prefers autonomy and thrives in dynamic, fast-paced environments.",
+      characteristics: "High Entrepreneurial Potential Characteristics: Highly self-directed, assertive, and goal-driven. Prefers autonomy and thrives in dynamic, fast-paced environments.\n- Channel energy effectively: Teach prioritization and delegation to avoid burnout and optimize performance.\n- Enhance collaboration skills: Encourage empathy and teamwork to balance autonomy with relationship-building.\n- Develop patience: Help them manage frustration when working with less proactive or structured individuals.\n- Expand strategic influence: Guide them in leveraging their assertiveness for broader organizational impact.\n- Focus on long-term vision: Encourage them to align their entrepreneurial drive with sustainable growth strategies.",
       actions: [
         { title: "Channel energy effectively", description: "Teach prioritization and delegation to avoid burnout and optimize performance." },
         { title: "Enhance collaboration skills", description: "Encourage empathy and teamwork to balance autonomy with relationship-building." },
@@ -131,7 +131,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Low: {
       band: "Low",
       title: "Dependent on Structure",
-      characteristics: "Highly reliant on structure, clear guidelines, and external support; excels in process-driven environments but struggles with autonomy and ambiguity.",
+      characteristics: "Dependent on Structure Characteristics: Highly reliant on structure, clear guidelines, and external support; excels in process-driven environments but struggles with autonomy and ambiguity.\n- Build confidence in autonomy: Start by assigning small, low-risk tasks that require independent decision-making.\n- Provide clear frameworks: Offer structured templates or processes to help them navigate unstructured tasks.\n- Gradually reduce oversight: Encourage them to take on more responsibility incrementally, providing guidance when needed.\n- Teach problem-solving skills: Offer tools and techniques to handle ambiguity and make decisions independently.\n- Reinforce reliability: Recognize and celebrate their strengths in adhering to processes to build confidence for new challenges.",
       actions: [
         { title: "Build confidence in autonomy", description: "Start by assigning small, low-risk tasks that require independent decision-making." },
         { title: "Provide clear frameworks", description: "Offer structured templates or processes to help them navigate unstructured tasks." },
@@ -143,7 +143,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Low-Mid": {
       band: "Low-Mid",
       title: "Team Oriented",
-      characteristics: "Comfortable in structured environments, rely on external support but can work with some degree of independence.",
+      characteristics: "Team Oriented Characteristics: Comfortable in structured environments, rely on external support but can work with some degree of independence.\n- Encourage initiative: Assign tasks that require them to step slightly outside of their comfort zone.\n- Balance structure with autonomy: Allow them to follow established processes but include opportunities to suggest improvements.\n- Promote collaborative independence: Encourage independent contributions while maintaining team-oriented work.\n- Develop decision-making confidence: Offer scenarios where they can practice making decisions without seeking immediate guidance.\n- Provide constructive feedback: Reinforce small wins to build their self-reliance.",
       actions: [
         { title: "Encourage initiative", description: "Assign tasks that require them to step slightly outside of their comfort zone." },
         { title: "Balance structure with autonomy", description: "Allow them to follow established processes but include opportunities to suggest improvements." },
@@ -155,7 +155,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Mid: {
       band: "Mid",
       title: "Balanced Independence",
-      characteristics: "Balanced between independence and structure; adaptable to both autonomous tasks and organizational guidelines.",
+      characteristics: "Balanced Independence Characteristics: Balanced between independence and structure; adaptable to both autonomous tasks and organizational guidelines.\n- Leverage versatility: Assign roles requiring a mix of self-direction and adherence to team processes.\n- Strengthen leadership potential: Offer leadership opportunities in both structured and unstructured settings.\n- Foster strategic independence: Provide complex tasks requiring them to decide when to follow structure versus innovate.\n- Encourage feedback receptivity: Help them integrate feedback into independent decision-making processes.\n- Push boundaries: Challenge them with projects requiring slightly more autonomy than they are used to.",
       actions: [
         { title: "Leverage versatility", description: "Assign roles requiring a mix of self-direction and adherence to team processes." },
         { title: "Strengthen leadership potential", description: "Offer leadership opportunities in both structured and unstructured settings." },
@@ -167,7 +167,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Mid-High": {
       band: "Mid-High",
       title: "Autonomous and Adaptable",
-      characteristics: "Self-reliant and comfortable creating their own frameworks while remaining adaptable to loose structures.",
+      characteristics: "Autonomous and Adaptable Characteristics: Self-reliant and comfortable creating their own frameworks while remaining adaptable to loose structures.\n- Promote creative problem-solving: Assign projects where they can innovate within a flexible structure.\n- Expand influence: Encourage them to mentor others to foster collaboration and adaptability within teams.\n- Balance autonomy with teamwork: Highlight the importance of aligning their independent efforts with team objectives.\n- Develop resilience in feedback: Coach them to view constructive feedback as a tool for refinement, not a limitation.\n- Encourage strategic risk-taking: Provide opportunities to lead initiatives requiring bold, independent decisions.",
       actions: [
         { title: "Promote creative problem-solving", description: "Assign projects where they can innovate within a flexible structure." },
         { title: "Expand influence", description: "Encourage them to mentor others to foster collaboration and adaptability within teams." },
@@ -179,7 +179,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     High: {
       band: "High",
       title: "Strongly Independent and Self-Reliant",
-      characteristics: "Highly independent, resistant to structure, and thrives in autonomous roles; visionary and innovative but may struggle with team dynamics and feedback.",
+      characteristics: "Strongly Independent and Self-Reliant Characteristics: Highly independent, resistant to structure, and thrives in autonomous roles; visionary and innovative but may struggle with team dynamics and feedback.\n- Channel independence effectively: Guide them in aligning their personal strategies with organizational goals.\n- Develop collaboration skills: Encourage empathy and teamwork to balance autonomy with effective group dynamics.\n- Enhance feedback receptivity: Teach the value of constructive input in refining innovative ideas and strategies.\n- Focus on long-term impact: Help them tie their independent actions to broader, sustainable outcomes.\n- Encourage leadership growth: Provide opportunities to lead high-autonomy projects while mentoring others to build collaborative skills.",
       actions: [
         { title: "Channel independence effectively", description: "Guide them in aligning their personal strategies with organizational goals." },
         { title: "Develop collaboration skills", description: "Encourage empathy and teamwork to balance autonomy with effective group dynamics." },
@@ -194,7 +194,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Low: {
       band: "Low",
       title: "Highly Reserved and Independent",
-      characteristics: "Reserved and private, these individuals prefer minimal social interaction and find extensive engagement draining. They thrive in smaller, familiar settings and are more focused on building deep, meaningful connections over time.",
+      characteristics: "Highly Reserved and Independent Characteristics: Reserved and private, these individuals prefer minimal social interaction and find extensive engagement draining. They thrive in smaller, familiar settings and are more focused on building deep, meaningful connections over time.\n- Start with familiar settings: Encourage them to engage with small, familiar groups to build their comfort in social situations.\n- Focus on deep relationships: Leverage their preference for quality interactions by assigning roles that require building long-term trust.\n- Teach communication skills: Provide training in active listening and conversation starters to improve their confidence in social settings.\n- Gradually increase exposure: Introduce opportunities for broader engagement, such as attending short networking events or team-building activities.\n- Reinforce thoughtful contributions: Highlight the value of their deliberate and meaningful communication style in group settings.",
       actions: [
         { title: "Start with familiar settings", description: "Encourage them to engage with small, familiar groups to build their comfort in social situations." },
         { title: "Focus on deep relationships", description: "Leverage their preference for quality interactions by assigning roles that require building long-term trust." },
@@ -206,7 +206,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Low-Mid": {
       band: "Low-Mid",
       title: "Reserved and Selective",
-      characteristics: "Selective in their interactions, these individuals prefer deliberate and meaningful engagement over frequent socializing. They are attentive communicators but take time to warm up in new social environments.",
+      characteristics: "Reserved and Selective in Social Engagement Characteristics: Selective in their interactions, these individuals prefer deliberate and meaningful engagement over frequent socializing. They are attentive communicators but take time to warm up in new social environments.\n- Encourage strategic networking: Help them identify key relationships to focus on, prioritizing quality over quantity.\n- Support gradual involvement: Provide opportunities to participate in structured social activities, like team discussions or scheduled meetings.\n- Practice conversational skills: Offer scenarios or role-play exercises to improve their ease in initiating and navigating social interactions.\n- Promote confidence in group settings: Assign roles in team projects where they can contribute selectively but meaningfully.\n- Balance structure and flexibility: Allow them to engage at their own pace while gradually encouraging more frequent interactions.",
       actions: [
         { title: "Encourage strategic networking", description: "Help them identify key relationships to focus on, prioritizing quality over quantity." },
         { title: "Support gradual involvement", description: "Provide opportunities to participate in structured social activities, like team discussions or scheduled meetings." },
@@ -218,7 +218,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Mid: {
       band: "Mid",
       title: "Socially Balanced",
-      characteristics: "Moderately sociable, these individuals balance social interaction with independence. They are comfortable engaging when needed but do not seek out social situations for energy or motivation.",
+      characteristics: "Socially Balanced Characteristics: Moderately sociable, these individuals balance social interaction with independence. They are comfortable engaging when needed but do not seek out social situations for energy or motivation.\n- Leverage adaptability: Assign tasks that require both collaboration and independent work, playing to their balanced strengths.\n- Encourage proactive engagement: Motivate them to take the lead in social interactions occasionally, such as initiating team discussions or client calls.\n- Build social confidence: Provide feedback on their interpersonal skills to reinforce their effectiveness in communication.\n- Set situational goals: Challenge them to participate more actively in specific scenarios, like brainstorming sessions or networking events.\n- Expand comfort zones: Encourage participation in environments that require slightly more frequent interaction, such as cross-functional team projects.",
       actions: [
         { title: "Leverage adaptability", description: "Assign tasks that require both collaboration and independent work, playing to their balanced strengths." },
         { title: "Encourage proactive engagement", description: "Motivate them to take the lead in social interactions occasionally, such as initiating team discussions or client calls." },
@@ -230,7 +230,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Mid-High": {
       band: "Mid-High",
       title: "Friendly and Engaging",
-      characteristics: "Friendly, approachable, and considerate, these individuals value and enjoy social interaction. They build rapport quickly and are effective communicators, showing a natural ease in their interactions.",
+      characteristics: "Friendly and Engaging Characteristics: Friendly, approachable, and considerate, these individuals value and enjoy social interaction. They build rapport quickly and are effective communicators, showing a natural ease in their interactions.\n- Highlight leadership potential: Encourage them to take on roles that require guiding or mentoring others through strong interpersonal skills.\n- Refine relationship strategies: Help them balance their focus on rapport-building with achieving broader organizational goals.\n- Encourage deeper connections: Motivate them to go beyond surface-level interactions and invest in long-term, trust-based relationships.\n- Teach time prioritization: Help them manage their energy by balancing social engagement with task-focused productivity.\n- Leverage their influence: Assign them to client-facing or team-cohesion roles where their friendliness can inspire trust and collaboration.",
       actions: [
         { title: "Highlight leadership potential", description: "Encourage them to take on roles that require guiding or mentoring others through strong interpersonal skills." },
         { title: "Refine relationship strategies", description: "Help them balance their focus on rapport-building with achieving broader organizational goals." },
@@ -242,7 +242,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     High: {
       band: "High",
       title: "Highly Approachable",
-      characteristics: "Charismatic and talkative, these individuals thrive in social settings, quickly building connections and energizing others. They excel in roles requiring strong interpersonal skills and enjoy forming new relationships.",
+      characteristics: "Highly Approachable Characteristics: Charismatic and talkative, these individuals thrive in social settings, quickly building connections and energizing others. They excel in roles requiring strong interpersonal skills and enjoy forming new relationships.\n- Encourage strategic networking: Guide them to focus their energy on building relationships that align with long-term goals.\n- Balance enthusiasm with focus: Help them manage their time and energy to ensure social engagement does not detract from task execution.\n- Develop deeper empathy: Encourage active listening and understanding diverse perspectives to strengthen their relational impact.\n- Teach boundary setting: Coach them on setting limits in social interactions to avoid overcommitment.\n- Maximize visibility: Assign them to high-visibility roles that leverage their charisma, such as public relations, sales, or leadership positions.",
       actions: [
         { title: "Encourage strategic networking", description: "Guide them to focus their energy on building relationships that align with long-term goals." },
         { title: "Balance enthusiasm with focus", description: "Help them manage their time and energy to ensure social engagement does not detract from task execution." },
@@ -257,7 +257,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Low: {
       band: "Low",
       title: "Practical and Routine-Focused",
-      characteristics: "Focus on essential knowledge, prefer established routines, and prioritize efficiency over deep learning or exploration.",
+      characteristics: "Practical and Routine-Focused Characteristics: Focus on essential knowledge, prefer established routines, and prioritize efficiency over deep learning or exploration.\n- Encourage curiosity: Introduce opportunities to explore topics beyond their immediate tasks to stimulate intellectual engagement.\n- Provide small learning goals: Set achievable, practical learning objectives to build confidence in expanding their knowledge base.\n- Tie learning to results: Show how acquiring additional knowledge can directly enhance their performance and efficiency.\n- Promote resourcefulness: Teach them to seek out information independently when needed, rather than relying solely on routine processes.\n- Celebrate learning milestones: Recognize their efforts when they engage with new information or successfully apply what they've learned.",
       actions: [
         { title: "Encourage curiosity", description: "Introduce opportunities to explore topics beyond their immediate tasks to stimulate intellectual engagement." },
         { title: "Provide small learning goals", description: "Set achievable, practical learning objectives to build confidence in expanding their knowledge base." },
@@ -269,7 +269,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Low-Mid": {
       band: "Low-Mid",
       title: "Results-Driven and Pragmatic",
-      characteristics: "Prioritize practical, results-oriented knowledge and focus on immediate relevance rather than deep exploration.",
+      characteristics: "Results-Driven and Pragmatic Characteristics: Prioritize practical, results-oriented knowledge and focus on immediate relevance rather than deep exploration.\n- Expand learning focus: Encourage them to explore knowledge areas that could contribute to longer-term goals, not just immediate tasks.\n- Foster strategic thinking: Help them see the value of understanding broader trends and how these insights can drive better decision-making.\n- Provide structured learning opportunities: Offer concise and focused training sessions or resources tailored to their role.\n- Support deeper engagement: Encourage participation in projects requiring moderate analysis or exploration of new information.\n- Reinforce the importance of growth: Highlight how continuous learning can improve adaptability and career advancement.",
       actions: [
         { title: "Expand learning focus", description: "Encourage them to explore knowledge areas that could contribute to longer-term goals, not just immediate tasks." },
         { title: "Foster strategic thinking", description: "Help them see the value of understanding broader trends and how these insights can drive better decision-making." },
@@ -281,7 +281,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Mid: {
       band: "Mid",
       title: "Balanced and Flexible Learner",
-      characteristics: "Strikes a balance between efficiency and depth, engaging with information as needed while maintaining a practical focus.",
+      characteristics: "Balanced and Flexible Learner Characteristics: Strikes a balance between efficiency and depth, engaging with information as needed while maintaining a practical focus.\n- Encourage targeted expertise: Guide them to deepen knowledge in key areas where specialization could enhance their impact.\n- Promote adaptability: Encourage them to experiment with different learning styles to suit various challenges or projects.\n- Foster strategic engagement: Help them identify situations where deeper analysis or learning would be particularly beneficial.\n- Leverage their flexibility: Assign tasks requiring both operational execution and moderate information processing to stretch their abilities.\n- Highlight leadership growth: Reinforce how their balance of practicality and learning can support their ability to lead both teams and initiatives effectively.",
       actions: [
         { title: "Encourage targeted expertise", description: "Guide them to deepen knowledge in key areas where specialization could enhance their impact." },
         { title: "Promote adaptability", description: "Encourage them to experiment with different learning styles to suit various challenges or projects." },
@@ -293,7 +293,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Mid-High": {
       band: "Mid-High",
       title: "Engaged and Contextually Adaptable",
-      characteristics: "Moderately engaged in learning, adaptable in their information processing, and capable of balancing operational and strategic demands.",
+      characteristics: "Engaged and Contextually Adaptable Characteristics: Moderately engaged in learning, adaptable in their information processing, and capable of balancing operational and strategic demands.\n- Encourage proactive learning: Motivate them to seek out new knowledge even when not directly required by their role.\n- Promote deeper exploration: Challenge them to engage more deeply with complex topics to expand their strategic capabilities.\n- Leverage their versatility: Assign projects requiring both in-depth knowledge and adaptable decision-making to stretch their skills.\n- Teach balance in delegation: Help them determine when to rely on others' expertise and when to develop their own understanding.\n- Support strategic leadership: Encourage them to integrate their practical knowledge with a broader vision for long-term impact.",
       actions: [
         { title: "Encourage proactive learning", description: "Motivate them to seek out new knowledge even when not directly required by their role." },
         { title: "Promote deeper exploration", description: "Challenge them to engage more deeply with complex topics to expand their strategic capabilities." },
@@ -305,7 +305,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     High: {
       band: "High",
       title: "Deeply Analytical and Knowledge-Driven",
-      characteristics: "Highly analytical, motivated to seek comprehensive knowledge, and deeply engaged in learning and information processing.",
+      characteristics: "Deeply Analytical and Knowledge-Driven Characteristics: Highly analytical, motivated to seek comprehensive knowledge, and deeply engaged in learning and information processing.\n- Encourage prioritization: Help them identify when detailed analysis is essential and when efficiency is more critical to decision-making.\n- Promote concise communication: Teach strategies for simplifying complex insights to avoid overwhelming clients or colleagues.\n- Balance action with analysis: Guide them to take decisive action even when all information isn't available to avoid delays.\n- Support innovative leadership: Assign roles that capitalize on their expertise while encouraging strategic, forward-thinking approaches.\n- Foster collaborative learning: Encourage them to share their knowledge in a way that inspires and develops others without appearing overly detailed or exhaustive.",
       actions: [
         { title: "Encourage prioritization", description: "Help them identify when detailed analysis is essential and when efficiency is more critical to decision-making." },
         { title: "Promote concise communication", description: "Teach strategies for simplifying complex insights to avoid overwhelming clients or colleagues." },
@@ -320,7 +320,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Low: {
       band: "Low",
       title: "Conflict-Avoidant",
-      characteristics: "Highly uncomfortable with conflict, preferring to avoid difficult conversations and maintain harmony. Communication is passive and compliant.",
+      characteristics: "Conflict-Avoidant Characteristics: Highly uncomfortable with conflict, preferring to avoid difficult conversations and maintain harmony. Communication is passive and compliant.\n- Build confidence in addressing conflict: Provide tools and frameworks (e.g., role-playing scenarios) for handling low-stakes disagreements.\n- Teach assertive communication: Encourage them to express their thoughts clearly while maintaining respect and collaboration.\n- Focus on preparation: Help them prepare for difficult conversations by identifying key points and desired outcomes in advance.\n- Promote gradual exposure: Assign small tasks that require addressing minor conflicts to build comfort and resilience over time.\n- Reframe conflict positively: Show them how constructive conflict can lead to better decisions and stronger team dynamics.",
       actions: [
         { title: "Build confidence in addressing conflict", description: "Provide tools and frameworks (e.g., role-playing scenarios) for handling low-stakes disagreements." },
         { title: "Teach assertive communication", description: "Encourage them to express their thoughts clearly while maintaining respect and collaboration." },
@@ -332,7 +332,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Low-Mid": {
       band: "Low-Mid",
       title: "Harmony-Seeking",
-      characteristics: "Somewhat uncomfortable with conflict, preferring harmony but capable of assertiveness in familiar or low-stakes situations.",
+      characteristics: "Harmony-Seeking Characteristics: Somewhat uncomfortable with conflict, preferring harmony but capable of assertiveness in familiar or low-stakes situations.\n- Encourage situational assertiveness: Guide them to recognize when standing firm is necessary to protect team goals or personal boundaries.\n- Strengthen conflict resolution skills: Provide strategies for balancing harmony with addressing critical issues directly.\n- Reinforce their role in team dynamics: Help them see how their ability to maintain peace can complement more assertive approaches.\n- Support confidence-building: Assign leadership tasks requiring moderate conflict engagement to build their confidence in handling tension.\n- Teach emotional regulation: Equip them with techniques to stay calm and composed during challenging conversations.",
       actions: [
         { title: "Encourage situational assertiveness", description: "Guide them to recognize when standing firm is necessary to protect team goals or personal boundaries." },
         { title: "Strengthen conflict resolution skills", description: "Provide strategies for balancing harmony with addressing critical issues directly." },
@@ -344,7 +344,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Mid: {
       band: "Mid",
       title: "Balanced and Cooperative",
-      characteristics: "Comfortable addressing conflict when necessary but prefers to avoid it unless essential. Communication is cooperative with situational assertiveness.",
+      characteristics: "Balanced and Cooperative Characteristics: Comfortable addressing conflict when necessary but prefers to avoid it unless essential. Communication is cooperative with situational assertiveness.\n- Leverage adaptability: Encourage them to refine their ability to shift between assertiveness and collaboration based on the situation.\n- Enhance strategic conflict resolution: Teach advanced techniques for managing group dynamics while resolving disagreements productively.\n- Promote proactive engagement: Help them recognize when addressing conflict early can prevent escalation.\n- Develop leadership confidence: Assign tasks requiring balanced conflict management to strengthen their ability to lead under pressure.\n- Encourage reflective learning: Guide them to analyze past conflicts to identify what worked well and areas for improvement.",
       actions: [
         { title: "Leverage adaptability", description: "Encourage them to refine their ability to shift between assertiveness and collaboration based on the situation." },
         { title: "Enhance strategic conflict resolution", description: "Teach advanced techniques for managing group dynamics while resolving disagreements productively." },
@@ -356,7 +356,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Mid-High": {
       band: "Mid-High",
       title: "Confident and Assertive",
-      characteristics: "Comfortable with conflict, assertive in communication, and confident in their stance. They do not shy away from addressing challenges but may struggle with managing emotions or fostering compromise.",
+      characteristics: "Confident and Assertive Characteristics: Comfortable with conflict, assertive in communication, and confident in their stance. They do not shy away from addressing challenges but may struggle with managing emotions or fostering compromise.\n- Develop emotional intelligence: Teach techniques for managing their own emotions and reading others' cues during conflicts.\n- Focus on collaborative conflict resolution: Encourage them to balance assertiveness with empathy and compromise to reach mutually beneficial outcomes.\n- Promote self-awareness: Help them identify situations where their assertiveness might escalate tension unnecessarily.\n- Refine communication skills: Teach methods for delivering assertive messages in a way that minimizes defensiveness in others.\n- Encourage a long-term perspective: Guide them to consider how their approach to conflict affects relationships and team cohesion over time.",
       actions: [
         { title: "Develop emotional intelligence", description: "Teach techniques for managing their own emotions and reading others' cues during conflicts." },
         { title: "Focus on collaborative conflict resolution", description: "Encourage them to balance assertiveness with empathy and compromise to reach mutually beneficial outcomes." },
@@ -368,7 +368,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     High: {
       band: "High",
       title: "Conflict-Comfortable Leaders",
-      characteristics: "Highly comfortable with conflict and assertive communication. They see conflict as an opportunity to take charge but may overly rely on directiveness, which does not ensure effectiveness.",
+      characteristics: "Conflict-Comfortable Leaders Characteristics: Highly comfortable with conflict and assertive communication. They see conflict as an opportunity to take charge but may overly rely on directiveness, which does not ensure effectiveness.\n- Balance assertiveness with collaboration: Encourage them to seek input from others and foster a team-centered approach during conflicts.\n- Teach de-escalation strategies: Equip them with tools for calming tensions and preventing escalation when addressing conflicts.\n- Develop active listening skills: Emphasize the importance of understanding others' perspectives to build trust and credibility.\n- Promote conflict resolution over control: Help them focus on solving the issue rather than asserting dominance in challenging situations.\n- Foster mentorship qualities: Encourage them to guide others in navigating conflicts, modeling effective and empathetic conflict management.",
       actions: [
         { title: "Balance assertiveness with collaboration", description: "Encourage them to seek input from others and foster a team-centered approach during conflicts." },
         { title: "Teach de-escalation strategies", description: "Equip them with tools for calming tensions and preventing escalation when addressing conflicts." },
@@ -383,7 +383,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Low: {
       band: "Low",
       title: "Emotionally Reactive",
-      characteristics: "Struggles to manage emotions, often reacting impulsively or overreacting under pressure. Lacks consistent coping strategies, making them prone to stress and frustration.",
+      characteristics: "Emotionally Reactive Characteristics: Struggles to manage emotions, often reacting impulsively or overreacting under pressure. Lacks consistent coping strategies, making them prone to stress and frustration.\n- Teach stress management techniques: Introduce practical strategies such as mindfulness techniques, deep breathing, or physical exercise to help manage emotional responses.\n- Promote awareness of triggers: Help identify situations or conversations that lead to emotional overreactions and create strategies to handle them.\n- Encourage pause before response: Train them to take a moment to process emotions before reacting, using methods like counting to ten or reflective questioning.\n- Set goals for emotional regulation: Provide low-stakes opportunities to practice managing emotions, such as role-playing difficult conversations.\n- Provide constructive feedback: Regularly review their emotional responses in a supportive environment to reinforce progress and encourage self-awareness.",
       actions: [
         { title: "Teach stress management techniques", description: "Introduce practical strategies such as mindfulness techniques, deep breathing, or physical exercise to help manage emotional responses." },
         { title: "Promote awareness of triggers", description: "Help identify situations or conversations that lead to emotional overreactions and create strategies to handle them." },
@@ -395,7 +395,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Low-Mid": {
       band: "Low-Mid",
       title: "Moderately Reactive",
-      characteristics: "Shows some ability to manage emotions but struggles in high-pressure or unexpected situations. Reactive tendencies may occasionally impact decision-making or team dynamics.",
+      characteristics: "Moderately Reactive Characteristics: Shows some ability to manage emotions but struggles in high-pressure or unexpected situations. Reactive tendencies may occasionally impact decision-making or team dynamics.\n- Develop emotional recovery strategies: Teach techniques like journaling or reframing to help them recover quickly from emotional disruptions.\n- Encourage reflective practices: Have them analyze past emotional reactions to understand what worked and what could improve.\n- Strengthen emotional awareness: Guide them in recognizing subtle emotional cues to respond thoughtfully rather than reactively.\n- Introduce structured decision-making tools: Help them use frameworks to maintain focus and rationality during emotionally charged situations.\n- Build resilience through exposure: Gradually expose them to more challenging situations to practice maintaining composure under increasing pressure.",
       actions: [
         { title: "Develop emotional recovery strategies", description: "Teach techniques like journaling or reframing to help them recover quickly from emotional disruptions." },
         { title: "Encourage reflective practices", description: "Have them analyze past emotional reactions to understand what worked and what could improve." },
@@ -407,7 +407,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     Mid: {
       band: "Mid",
       title: "Emotionally Balanced",
-      characteristics: "Manages emotions effectively in most situations but may experience occasional difficulty under extreme pressure. Typically composed and capable of maintaining stability in leadership roles.",
+      characteristics: "Emotionally Balanced Characteristics: Manages emotions effectively in most situations but may experience occasional difficulty under extreme pressure. Typically composed and capable of maintaining stability in leadership roles.\n- Expand emotional regulation techniques: Introduce advanced methods like visualization or progressive relaxation to strengthen stress management in high-pressure scenarios.\n- Encourage proactive stress management: Help them establish routines that include physical exercise, hobbies, or mindfulness practices to prevent burnout.\n- Promote consistent emotional check-ins: Guide them in assessing their emotional state regularly to catch fluctuations early.\n- Refine response strategies: Teach methods to navigate highly emotional or unexpected challenges with greater consistency and control.\n- Prepare for high-stakes environments: Simulate scenarios that require rapid emotional regulation to help them build confidence and readiness.",
       actions: [
         { title: "Expand emotional regulation techniques", description: "Introduce advanced methods like visualization or progressive relaxation to strengthen stress management in high-pressure scenarios." },
         { title: "Encourage proactive stress management", description: "Help them establish routines that include physical exercise, hobbies, or mindfulness practices to prevent burnout." },
@@ -419,7 +419,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     "Mid-High": {
       band: "Mid-High",
       title: "Composed and Resilient",
-      characteristics: "Calm and composed, effectively managing stress and maintaining emotional control. Responds thoughtfully and inspires confidence, particularly in high-pressure or long-term stressful environments.",
+      characteristics: "Composed and Resilient Characteristics: Calm and composed, effectively managing stress and maintaining emotional control. Responds thoughtfully and inspires confidence, particularly in high-pressure or long-term stressful environments.\n- Strengthen adaptability: Challenge them to practice managing emotions in unfamiliar or dynamic situations to broaden their resilience.\n- Foster authentic emotional expression: Encourage them to show appropriate vulnerability to strengthen team trust and relatability.\n- Refine crisis management skills: Help them develop strategies for addressing prolonged stress or compounded challenges effectively.\n- Encourage team-focused regulation: Coach them to model emotional regulation techniques for their teams, fostering a culture of composure and resilience.\n- Promote self-care strategies: Reinforce the importance of maintaining their emotional reserves through balanced work-life practices.",
       actions: [
         { title: "Strengthen adaptability", description: "Challenge them to practice managing emotions in unfamiliar or dynamic situations to broaden their resilience." },
         { title: "Foster authentic emotional expression", description: "Encourage them to show appropriate vulnerability to strengthen team trust and relatability." },
@@ -431,7 +431,7 @@ export const NEW_SCALE_DESCRIPTORS: Record<TraitKey, Record<ScoreBand, NewScaleD
     High: {
       band: "High",
       title: "Emotionally Masterful",
-      characteristics: "Excels at managing emotions, even in the most stressful situations. Maintains composure and uses advanced techniques to remain centered. Highly steady and trustworthy but may risk appearing emotionally detached or unauthentic.",
+      characteristics: "Emotionally Masterful Characteristics: Excels at managing emotions, even in the most stressful situations. Maintains composure and uses advanced techniques to remain centered. Highly steady and trustworthy but may risk appearing emotionally detached or unauthentic.\n- Balance composure with authenticity: Encourage appropriate emotional expression to foster stronger connections and relatability with the team.\n- Address conflict directly: Guide them in ensuring their composure doesn't lead to avoiding necessary but challenging emotional confrontations.\n- Leverage emotional regulation to empower others: Coach them to teach and model their techniques for team development and resilience.\n- Promote ongoing self-reflection: Help them evaluate the balance between their emotional control and how they are perceived by others.\n- Strengthen empathetic leadership: Encourage them to actively engage with the emotional experiences of others to deepen team cohesion and trust.",
       actions: [
         { title: "Balance composure with authenticity", description: "Encourage appropriate emotional expression to foster stronger connections and relatability with the team." },
         { title: "Address conflict directly", description: "Guide them in ensuring their composure doesn't lead to avoiding necessary but challenging emotional confrontations." },
@@ -448,7 +448,7 @@ export const SAQ_DESCRIPTORS: Record<ScoreBand, NewScaleDescriptor> = {
   Low: {
     band: "Low",
     title: "Limited Self-Awareness",
-    characteristics: "Individuals with low self-awareness struggle to recognize and understand their emotions and behaviors and how these impact their actions and relationships. They are resistant to feedback and often have blind spots in communication and decision-making.",
+      characteristics: "Limited Self-Awareness Characteristics: Individuals with low self-awareness struggle to recognize and understand their emotions and behaviors and how these impact their actions and relationships. They are resistant to feedback and often have blind spots in communication and decision-making.\n- Introduce emotional literacy: Provide tools or training to help them identify and label emotions, such as emotional intelligence workshops or reflection exercises.\n- Encourage structured feedback: Use regular, constructive feedback sessions to help them understand the impact of their actions in a supportive way.\n- Start with small self-reflection tasks: Assign low-stakes exercises like journaling or reflecting on specific interactions to build their capacity for introspection.\n- Highlight the value of self-awareness: Show them how improving self-awareness can lead to better decision-making and team dynamics.\n- Pair them with a mentor: Provide guidance from someone who models strong self-awareness to help them see its practical benefits.",
     actions: [
       { title: "Introduce emotional literacy", description: "Provide tools or training to help them identify and label emotions, such as emotional intelligence workshops or reflection exercises." },
       { title: "Encourage structured feedback", description: "Use regular, constructive feedback sessions to help them understand the impact of their actions in a supportive way." },
@@ -460,7 +460,7 @@ export const SAQ_DESCRIPTORS: Record<ScoreBand, NewScaleDescriptor> = {
   "Low-Mid": {
     band: "Low-Mid",
     title: "Reactive and Moderately Self-Aware",
-    characteristics: "These individuals have some awareness of their emotions and behaviors but are more reactive than reflective. They may lack consistency in using feedback or exploring personal growth opportunities.",
+      characteristics: "Reactive and Moderately Self-Aware Characteristics: These individuals have some awareness of their emotions and behaviors but are more reactive than reflective. They may lack consistency in using feedback or exploring personal growth opportunities.\n- Encourage reflective practices: Introduce tools like post-action reviews or guided self-assessments to help them connect behaviors to outcomes.\n- Promote active feedback use: Help them incorporate feedback into actionable goals for personal and professional development.\n- Strengthen emotional regulation: Teach techniques like mindfulness or deep breathing to manage emotional responses during challenging situations.\n- Highlight strengths: Reinforce their ability to handle day-to-day interactions and encourage growth in more complex scenarios.\n- Set growth milestones: Establish clear, measurable goals to improve their self-awareness over time, such as practicing active listening or journaling weekly reflections.",
     actions: [
       { title: "Encourage reflective practices", description: "Introduce tools like post-action reviews or guided self-assessments to help them connect behaviors to outcomes." },
       { title: "Promote active feedback use", description: "Help them incorporate feedback into actionable goals for personal and professional development." },
@@ -472,7 +472,7 @@ export const SAQ_DESCRIPTORS: Record<ScoreBand, NewScaleDescriptor> = {
   Mid: {
     band: "Mid",
     title: "Balanced Self-Awareness",
-    characteristics: "These individuals have a solid grasp of their emotions and behaviors, balancing reflection with action. They are open to feedback but may not consistently seek it or engage in deep self-exploration.",
+      characteristics: "Balanced Self-Awareness Characteristics: These individuals have a solid grasp of their emotions and behaviors, balancing reflection with action. They are open to feedback but may not consistently seek it or engage in deep self-exploration.\n- Encourage proactive feedback-seeking: Help develop the habit of asking for feedback to deepen their understanding of their impact on others.\n- Refine reflection skills: Suggest practices like structured journaling or peer discussions to explore behaviors and decisions more deeply.\n- Promote emotional intelligence exploration: Guide them in identifying patterns in their emotional responses and refining their emotional regulation skills.\n- Balance reflection and action: Support them in ensuring that self-reflection does not delay decision-making or action.\n- Provide growth opportunities: Assign tasks requiring emotional intelligence, such as resolving conflicts or mentoring others, to stretch their skills.",
     actions: [
       { title: "Encourage proactive feedback-seeking", description: "Help develop the habit of asking for feedback to deepen their understanding of their impact on others." },
       { title: "Refine reflection skills", description: "Suggest practices like structured journaling or peer discussions to explore behaviors and decisions more deeply." },
@@ -484,7 +484,7 @@ export const SAQ_DESCRIPTORS: Record<ScoreBand, NewScaleDescriptor> = {
   "Mid-High": {
     band: "Mid-High",
     title: "Proactively Self-Aware",
-    characteristics: "These individuals are attuned to their emotions, regularly reflecting on their leadership style and impact. They are open to feedback and use it proactively to enhance their effectiveness but may occasionally focus too much on self-reflection.",
+      characteristics: "Proactively Self-Aware Characteristics: These individuals are attuned to their emotions, regularly reflecting on their leadership style and impact. They are open to feedback and use it proactively to enhance their effectiveness but may occasionally focus too much on self-reflection.\n- Promote balanced reflection: Help them focus reflection on actionable insights, avoiding overanalysis that could hinder decision-making.\n- Expand feedback interpretation: Encourage them to seek diverse perspectives to ensure well-rounded personal growth.\n- Foster team self-awareness: Guide them in empowering their team to develop self-awareness through role modeling and coaching.\n- Encourage emotional resilience: Strengthen their ability to manage emotions in high-pressure or complex situations to maintain leadership effectiveness.\n- Leverage strengths in leadership: Assign them to emotionally demanding tasks, such as managing conflict or guiding team development, to maximize their impact.",
     actions: [
       { title: "Promote balanced reflection", description: "Help them focus reflection on actionable insights, avoiding overanalysis that could hinder decision-making." },
       { title: "Expand feedback interpretation", description: "Encourage them to seek diverse perspectives to ensure well-rounded personal growth." },
@@ -496,7 +496,7 @@ export const SAQ_DESCRIPTORS: Record<ScoreBand, NewScaleDescriptor> = {
   High: {
     band: "High",
     title: "Deeply Self-Aware",
-    characteristics: "Highly reflective and emotionally intelligent, these individuals excel at understanding their emotions and behaviors and using feedback for continuous growth. They lead with empathy and authenticity, fostering strong interpersonal relationships and trust.",
+      characteristics: "Deeply Self-Aware Characteristics: Highly reflective and emotionally intelligent, these individuals excel at understanding their emotions and behaviors and using feedback for continuous growth. They lead with empathy and authenticity, fostering strong interpersonal relationships and trust.\n- Focus on action-oriented growth: Encourage them to channel their insights into immediate, impactful actions, avoiding delays caused by overanalysis.\n- Strengthen team development: Coach them to extend their self-awareness practices to developing others' emotional intelligence and self-reflection skills.\n- Balance self-focus with team needs: Help them ensure their emphasis on personal growth does not overshadow the broader needs of their team.\n- Expand strategic self-awareness: Encourage them to align their self-reflection with organizational goals, linking personal growth to team and company success.\n- Mentor others: Guide them to mentor peers or junior staff, sharing their reflective practices and fostering a culture of self-awareness and empathy.",
     actions: [
       { title: "Focus on action-oriented growth", description: "Encourage them to channel their insights into immediate, impactful actions, avoiding delays caused by overanalysis." },
       { title: "Strengthen team development", description: "Coach them to extend their self-awareness practices to developing others' emotional intelligence and self-reflection skills." },
