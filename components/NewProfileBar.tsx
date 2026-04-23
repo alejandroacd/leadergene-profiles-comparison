@@ -1,15 +1,16 @@
 "use client";
 
-import { BAND_ORDER } from "@/lib/scoreBands";
+import { BAND_ORDER, BAND_THRESHOLDS } from "@/lib/scoreBands";
 
-// Equal 20-point segments on the 0–100 normed scale
-const SEGMENTS = [
-  { start: 0,  end: 20,  band: BAND_ORDER[0] },
-  { start: 20, end: 40,  band: BAND_ORDER[1] },
-  { start: 40, end: 60,  band: BAND_ORDER[2] },
-  { start: 60, end: 80,  band: BAND_ORDER[3] },
-  { start: 80, end: 100, band: BAND_ORDER[4] },
-];
+// Segment widths are derived from the universal band thresholds so the
+// visual bar always agrees with the band label returned by getScoreBand.
+const SEGMENT_BOUNDS = [0, ...BAND_THRESHOLDS, 100];
+const SEGMENTS = BAND_ORDER.map((band, i) => ({
+  band,
+  start: SEGMENT_BOUNDS[i],
+  end: SEGMENT_BOUNDS[i + 1],
+  widthPct: SEGMENT_BOUNDS[i + 1] - SEGMENT_BOUNDS[i],
+}));
 
 // Neutral gray shades — no color coding
 const SEGMENT_GRAYS = ["#f3f4f6", "#e5e7eb", "#d1d5db", "#9ca3af", "#6b7280"];
@@ -30,7 +31,7 @@ export function NewProfileBar({ normedScore }: NewProfileBarProps) {
           <div
             key={i}
             className="h-full relative"
-            style={{ width: "20%", backgroundColor: SEGMENT_GRAYS[i] }}
+            style={{ width: `${seg.widthPct}%`, backgroundColor: SEGMENT_GRAYS[i] }}
           >
             {i < SEGMENTS.length - 1 && (
               <div className="absolute right-0 top-0 bottom-0 w-px bg-white/70" />
@@ -62,7 +63,7 @@ export function NewProfileBar({ normedScore }: NewProfileBarProps) {
       {/* Band labels */}
       <div className="relative w-full flex text-[10px] text-gray-500 mt-0">
         {SEGMENTS.map((seg, i) => (
-          <div key={i} className="text-center truncate" style={{ width: "20%" }}>
+          <div key={i} className="text-center truncate" style={{ width: `${seg.widthPct}%` }}>
             {seg.band}
           </div>
         ))}

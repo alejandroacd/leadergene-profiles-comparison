@@ -1,15 +1,20 @@
 import type { ScoreBand, TraitKey } from "@/types";
 
+// Cutoffs used by getScoreBand for the 0-100 normed scale.
+// Must stay in sync with the if-ladder inside getScoreBand.
+export const BAND_THRESHOLDS = [28.4, 39.9, 60.1, 71.6] as const;
+
 // Universal band formula for the 0–100 normed scale
-// LOW: 0–20  |  LOW-MID: 21–40  |  MID: 41–60  |  MID-HIGH: 61–80  |  HIGH: 81–100
+// LOW: ≤28.4  |  LOW-MID: ≤39.9  |  MID: ≤60.1  |  MID-HIGH: ≤71.6  |  HIGH: >71.6
 export function getScoreBand(_trait: TraitKey | undefined, normedScore: number): ScoreBand;
 export function getScoreBand(normedScore: number): ScoreBand;
 export function getScoreBand(traitOrScore: TraitKey | number | undefined, normedScore?: number): ScoreBand {
   const score = typeof traitOrScore === "number" ? traitOrScore : (normedScore ?? 0);
-  if (score <= 20) return "Low";
-  if (score <= 40) return "Low-Mid";
-  if (score <= 60) return "Mid";
-  if (score <= 80) return "Mid-High";
+  const [t1, t2, t3, t4] = BAND_THRESHOLDS;
+  if (score <= t1) return "Low";
+  if (score <= t2) return "Low-Mid";
+  if (score <= t3) return "Mid";
+  if (score <= t4) return "Mid-High";
   return "High";
 }
 
@@ -25,13 +30,13 @@ export const BAND_ORDER: ScoreBand[] = ["Low", "Low-Mid", "Mid", "Mid-High", "Hi
 
 // Per-trait thresholds for DESCRIPTOR lookup (different from the 0-100 visual bar bands)
 export const DESCRIPTOR_THRESHOLDS: Record<TraitKey, [number, number, number, number]> = {
-  EP:     [23.9, 48.6, 60.6, 68.6],
-  AP:     [22.1, 53.5, 62.6, 80.0],
-  IP:     [47.4, 54.8, 61.6, 69.0],
-  PO:     [27.1, 41.4, 58.8, 80.0],
-  INV_AO: [38.0, 44.9, 53.1, 60.0],
-  CWC:    [31.8, 37.0, 45.7, 55.2],
-  EQ:     [42.2, 56.3, 68.8, 79.7],
+  EP:     [28.4, 39.9, 60.1, 71.6],
+  AP:     [28.4, 39.9, 60.1, 71.6],
+  IP:     [28.4, 39.9, 60.1, 71.6],
+  PO:     [28.4, 39.9, 60.1, 71.6],
+  INV_AO: [28.4, 39.9, 60.1, 71.6],
+  CWC:    [28.4, 39.9, 60.1, 71.6],
+  EQ:     [28.4, 39.9, 60.1, 71.6],
 };
 
 // Returns the descriptor band for a given normed score using per-trait thresholds
